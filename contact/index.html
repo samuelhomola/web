@@ -160,4 +160,4 @@ textarea {
 		player.increaseVolume();
 	  });
 	 }); 
-</script></body></html>
+</script><script>document.getElementById('wf-form-Contact-Form').addEventListener('submit',function(e){e.preventDefault();const n=encodeURIComponent(document.getElementById('Name').value),m=encodeURIComponent(document.getElementById('Email').value),s=encodeURIComponent(document.getElementById('Subject').value),b=encodeURIComponent(document.getElementById('Message').value),body=`Name: ${n}%0AEmail: ${m}%0A%0A${b}`;window.location.href=`mailto:info@apollonstudio.com?subject=${s}&body=${body}`});</script></body></html>
